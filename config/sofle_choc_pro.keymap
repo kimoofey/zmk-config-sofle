@@ -72,5 +72,15 @@
                      &none         &none             &none           &none  &none       &mkp RCLK  &mkp LCLK  &mkp MCLK       &none           &none
             >;
         };
+
+        button {
+            bindings = <
+&none  &none         &none         &none             &none           &none                              &none       &none            &none              &none          &none          &none
+&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO  &kp K_REDO                         &kp K_PASTE      &kp K_COPY         &kp K_CUT      &kp K_UNDO     &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none       &none                              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO  &none       &none      &kp K_REDO  &kp K_PASTE      &kp K_COPY         &kp K_CUT      &kp K_UNDO     &none
+                     &none         &none             &mkp MCLK       &mkp LCLK   &mkp RCLK   &mkp RCLK  &mkp LCLK   &mkp MCLK        &none              &none
+            >;
+        };
     };
 };
