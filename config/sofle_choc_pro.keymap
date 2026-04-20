@@ -98,7 +98,7 @@
             bindings = <
 &kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6                          &kp F7   &kp F8    &kp F9         &kp F10        &kp F11     &kp F12
 &trans  &swap_tab     &none         &swap_mac         &none           &kp ESCAPE  &kp ESCAPE                   &kp HOME  &kp END        &kp BACKSPACE  &kp DELETE  &none
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RET     &kp ENTER                    &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT   &none
+&trans  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp RET     &kp ENTER                    &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT   &none
 &trans  &pspc         &nspc         &none             &none           &kp TAB     &trans      &trans  &kp TAB  &none     &kp PAGE_DOWN  &kp PAGE_UP    &kp KP_NUM  &none
                       &none         &none             &trans          &trans      &trans      &trans  &trans   &trans    &none          &none
             >;
