@@ -100,7 +100,7 @@
 &trans  &swap_tab         &none              &swap_mac         &none                    &kp ESCAPE  &kp ESCAPE                   &kp HOME  &kp END        &kp BACKSPACE  &kp DELETE  &none
 &trans  &sk LEFT_GUI      &sk LEFT_ALT       &sk LEFT_CONTROL  &sk LEFT_SHIFT           &kp RET     &kp ENTER                    &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT   &none
 &trans  &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))  &none             &kp LS(LG(KP_NUMBER_4))  &kp TAB     &trans      &trans  &kp TAB  &none     &kp PAGE_DOWN  &kp PAGE_UP    &kp KP_NUM  &none
-                          &none              &none             &trans                   &trans      &trans      &trans  &trans   &trans    &none          &none
+                          &none              &none             &sl 4                    &trans      &trans      &trans  &trans   &trans    &none          &none
             >;
 
             sensor-bindings =
@@ -146,6 +146,16 @@
 &none              &sk LEFT_GUI     &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT   &kp F11          &kp F12                                  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT    &sk RIGHT_GUI    &none
 &none              &kp F1           &kp F2           &kp F3            &kp F4           &kp F5           &rgb_ug RGB_TOG  &none  &kp F6           &kp F7           &kp F8             &kp F9           &kp F10          &none
                                     &none            &none             &none            &none            &none            &none  &none            &none            &none              &none
+            >;
+        };
+
+        cmd {
+            bindings = <
+&none  &none              &none              &none              &none              &none                                                &none              &none              &none                  &none                &none                 &none
+&none  &kp LS(LC(LA(Q)))  &kp LC(LA(LS(W)))  &kp LC(LA(LS(E)))  &kp LC(LA(LS(R)))  &kp LC(LA(LS(T)))  &kp RS(RA(RC(Y)))                                    &kp C_VOLUME_DOWN  &kp K_MUTE             &kp C_VOLUME_UP      &kp RS(RA(RC(P)))     &none
+&none  &kp LC(LA(LS(A)))  &kp LC(LA(LS(S)))  &kp LC(LA(LS(D)))  &kp LC(LA(LS(F)))  &kp LC(LA(LS(G)))  &kp RS(RA(RC(H)))                                    &kp C_PREVIOUS     &kp C_PLAY_PAUSE       &kp C_NEXT           &kp RS(RA(RC(SEMI)))  &none
+&none  &kp LC(LA(LS(Z)))  &kp LC(LA(LS(X)))  &kp LC(LA(LS(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &none              &none          &kp RS(RA(RC(N)))  &kp RS(RA(RC(M)))  &kp RS(RA(RC(COMMA)))  &kp RS(RA(RC(DOT)))  &kp RS(RA(RC(FSLH)))  &none
+                          &none              &none              &none              &none              &none              &kp RIGHT_GUI  &none              &none              &none                  &none
             >;
         };
     };
